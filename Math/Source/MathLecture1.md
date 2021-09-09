@@ -102,7 +102,7 @@ B_{n*p} = (a_{jk})\\
 C_{m*p} = (c_{ik})\\
 c_{ik} = a_{i1} * b_{1k} ... + a_{in} * b_{nk}, i = 1 \rightarrow m, k = 1 \rightarrow p
 $$
-Схемотично изобразим
+Схематично изобразим
 
 ![Умножение матриц](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.berdov.com%2Fimg%2Fworks%2Fmatrix%2Fumnozhenie-matric%2Fprobniy-snimok-2.png&f=1&nofb=1)
 
