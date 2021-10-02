@@ -1,3 +1,5 @@
+
+
 # **Математика**.
 
 [Вернуться на главную страницу](/)
@@ -369,7 +371,7 @@ $$
 ![Умножение вектора на число - Презентация 15788-5](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F900igr.net%2Fdatas%2Fgeometrija%2FUmnozhenie-vektora-na-chislo%2F0005-005-Umnozhenie-vektora-na-chislo.jpg&f=1&nofb=1)
 
 * $$b^- = \alpha * a^- \Leftrightarrow a^-  b^-$$
-* Вектор равен произведению орты на его длинны
+* Вектор равен произведению орты на его длину
 
 ### Проекция вектора на ось.
 
@@ -460,6 +462,8 @@ a = a_x*i + a_y * j + a_z * k; b = b_x * i + b_y * j + b_z * k
 | j    | 0    | 1    | 0    |
 | k    | 0    | 0    | 1    |
 
+
+
 $$
 a * b = (a_x * i + a_y * j + a_z * k) * (b_x * i + b_y * j + b_z * k) =\\ a_x * b_x * i * i + a_x * b_y * i * j + a_x * b_z * i * k + a_y * b_x * j * i + a_y * b_y * j * j + a_y * b_z * j * k + a_z * b_x * k * i + a_z * b_y * k * j + a_z * b_z * k * k =\\ a_x * b_x + a_y * b_y + a_z * b_z
 $$
@@ -474,4 +478,109 @@ $$
 
 ### Работа постоянной силы
 
-Пусть материальная точка перемещается из положения A в положение B под действием постоянной силы F, образующей угол \phi с вектором перемещения AB
+Пусть материальная точка перемещается из положения A в положение B под действием постоянной силы F, образующей угол $$\phi$$ с вектором перемещения AB.
+
+## Аналитическая геометрия.
+
+### Тема 2. Линии на плоскости.
+
+Линия на плоскости - это множество точке обладающих некоторым только им присущим геометрическим свойствам.
+
+*Уравнением линии* (или кривой) на плоскости Оху называется такое уравнение F(x;y) = 0 с двумя переменными, которому удовлетворяют координаты x и у каждой точки линии и не удовлетворяют координаты любой точки, не лежащей на этой линии.
+
+Уравнение F(r, $$\phi$$) = 0 называется уравнением линии в полярных координатах.
+
+Линию можно задать параметрическим способом через систему:
+x = x(t)
+y = y(t)
+где x и y координаты точки принадлажащей линии, t - вспомогательная переменная, называемая параметром.
+
+Примеры кривых:
+
+1. Окружность 
+   <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fru.solverbook.com%2Fmy_images%2Fpic2192.png&f=1&nofb=1" alt="Уравнение окружности, формулы и примеры" style="zoom:50%;" /> r = R - полярное уравнение {x = R * cos(t); y = R * sin(t), $$t \in [0, 2\pi]$$}
+   <img src="https://theslide.ru/img/thumbs/b664a29e95201cc1743e3dae2dafd65b-800x.jpg" alt="img" style="zoom:50%;" />
+
+2. Лемниската Бернулли
+   ![Лемниската Бернулли.](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pm298.ru%2FMath%2Ff2252.JPG&f=1&nofb=1)$$r = a \sqrt{\cos{2\phi}}, a > 0, (x^2 + y^2)^2 - a^2(x^2 - y^2) = 0$$
+
+3. Улитка Паскаля
+   $$r = b + a  * \cos{\phi}, \ a > b, \ a = b, \ a < b$$ 
+   ![Красивые графики - krasotavmatematike](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsites.google.com%2Fsite%2Fkrasotavmatematike%2Fhome%2Ftyt--5%2F%25D0%25BA%25D0%25B37.jpg%3Fattredirects%3D0&f=1&nofb=1)
+
+4. Спираль Архимеда.
+
+   ![Спираль Архимеда это - Школьные Знания.com](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fru-static.z-dn.net%2Ffiles%2Fd3c%2Fe453f3d871427cacf4b92ef0d53ca651.jpg&f=1&nofb=1) a > 0 
+
+5. Циклоида
+   Кривая которую описывает фиксированная точка окружности, катящаяся без скольжения по прямой.
+   ![ЦИКЛОИДА - это... Что такое ЦИКЛОИДА?](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdic.academic.ru%2Fpictures%2Fenc_mathematics%2F052403-55.jpg&f=1&nofb=1)$$ x = a(t - sin(t)); y = a(1 - cos(t)), a > 0$$
+
+6. Астроида
+    ![Астроида](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fschool-collection.edu.ru%2Fdlrstore-wrapper%2F0f52b84b-4819-4d76-91a7-41cfced6e22b%2FAstroid.png&f=1&nofb=1) $$ x = a * cos^3(t) $$ $$ y = a * sin^3(t) $$
+
+## Уравнения прямой на плоскости.
+
+* Уравнение прямой, проходящей через заданную точку, перепендикулярно заданному вектору. Пусть прямая проходит через точку $$M_0(x_0; y_0)$$, перпендикулярно вектору $$\vec{n} = (A, B)$$
+  Уравнение:
+  $$ A * (x - x_0) + B * (y - y_0) = 0 $$
+  $$ \vec{n} = (A, B) $$ - нормальный вектор прямой
+
+* Общее уравнение прямой
+  $$ A_x - A_{x_0} + B_y - B_{y_0} = 0 $$
+
+  $$ A_x + B_y + (- A_{x_0} - B_{y_0}) = 0 $$ 
+
+  $$ A_x + B_y + C = 0 $$
+
+* Уравнение прямой с угловым коэффициентом.
+  Из уравнение (2) выразим y
+  $$ B_y =  - A_x - C | : B $$ 
+  $$ y = - \frac{A}{B}x - \frac{C}{B} $$ 
+  $$ k  = - \frac{A}{B}, \ b = - \frac{C}{B} $$
+  $$ y = k * x + b $$  
+  $$ k = \tan(\alpha) $$ - угловой коэффициент
+
+* Уравнение прямой, проходящий через заданную точку в заданном направлении. (Уравнете пучка прямых)
+  Пусть прямая L проходит через точку $$ M_0(x_0, y_0) $$ и известно также её направление, то есть угловой коэффициент K.
+  $$ y = k * x + b $$ , где  b - неизвестно
+   $$M_(x_0, y_0) \in l, \rightarrow y_0 = k * x_0 + b, \rightarrow b = y_0 - k * x_0 \Rightarrow \\ y - y_0 = k(x - x_0) $$
+
+* Уравнение прямой проходящей через две точки. Пусть прямая проходит через точки $$M_1(x_1, y_2) \text{ и } M_2(x_2, y_2) $$ 
+
+  $$ M(x, y) \in \R $$
+  $$ \vec{MM_1} = (x - x_1, y - y_1) $$
+  $$ \vec{M_1M_2} = (x_2 - x_1, y_2 - y_1) $$
+
+  ![Презентация "Уравнение прямой на плоскости (9 класс ...](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbigslide.ru%2Fimages%2F37%2F36916%2F960%2Fimg1.jpg&f=1&nofb=1)
+
+* Уравнение прямой в отрезках. Пусть прямая пересекает ось OX в $$M_1(a; 0) \text { и пересекает точку } M_2(0; b) $$ 
+  ![img](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dpva.ru%2Fnetcat_files%2FImage%2FGuideMathematics%2FLinAlgebra%2FStraightLineEquationsOnFlat%2FStraightLineEquationsOnFlat.jpg&f=1&nofb=1)
+
+* Параллельно ![Презентация на тему: "Прямая на плоскости Вопросы 4 ...](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.myshared.ru%2F7%2F822443%2Fslide_6.jpg&f=1&nofb=1)
+
+### Прямая на плоскости основные задачи
+
+![img](https://sun9-60.userapi.com/impg/Ex1ruEHKMTlwRRT6wv3ZHqzEzFFzNv-FwX_LaA/x4tq0-j1nAY.jpg?size=1280x844&quality=96&sign=2caaca34d7c4270fb7b87d78b43a3319&type=album)
+
+![img](https://sun9-62.userapi.com/impg/5-Rcdm0j5C5WofAVRp43Gq-oXa6ydYFs67PUVw/bHFvXme7WPM.jpg?size=755x1080&quality=96&sign=2b0b5ac18cf61e9310212ee304796ea6&type=album)
+
+**Пример:**
+$$\triangle MNP \\ M(4; -3), M(-2; 6), P(5; 4)$$ 
+
+**Найти:**
+
+* Изобразить треугольник в Oxy
+* Уравнение MP
+* Уравнение NE
+* Уравнение ND
+* | NE |
+* | ND |
+* NE ^ ND
+
+**Решение:**
+
+![img](https://sun9-4.userapi.com/impg/CLmIDUbX8dHSVVaLOBzxu6rpuAFtx0OyId_dGw/uRubvrAbEyo.jpg?size=1280x559&quality=96&sign=45ce865e5a904908fe53fb2cb4df3ea0&type=album)
+
+![img](https://sun9-42.userapi.com/impg/quyRTEJHkset2bBkFFYAbrla7gw4J7d5IJLsNA/yMiJ0JwR-xg.jpg?size=1280x775&quality=96&sign=77d49768e002ab8af9977864be570093&type=album)
+
